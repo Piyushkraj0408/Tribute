@@ -1,133 +1,141 @@
+/* --- Original Desktop Styles (Unchanged) --- */
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(https://media.istockphoto.com/id/1297933144/vector/vector-illustration-of-indian-tricolor-flag-background.jpg?s=612x612&w=0&k=20&c=tCd-ZdLMNHw_KAMZTX9zStqEDdWzXlS6FYrvjrZIswk=);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Makes it cover the whole page */
-    background-position: center;
-    /* Centers the image */
-    background-attachment: fixed;
-    height: 100vh;
-    padding: 20px;
-    justify-content: center;
-    align-items: flex-start;
-    font-family: "body", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 50;
-    font-style: normal;
-    animation: fadeIn 1.8s ease-in-out;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://media.istockphoto.com/id/1297933144/vector/vector-illustration-of-indian-tricolor-flag-background.jpg?s=612x612&w=0&k=20&c=tCd-ZdLMNHw_KAMZTX9zStqEDdWzXlS6FYrvjrZIswk=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "body", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+  animation: fadeIn 1.8s ease-in-out;
 }
 
-#bhagat,#netaji,#patelji,#bapuji,#azadji,#raniji{
-    margin: 20px 50px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
-    max-height: 120vh;
+#bhagat,
+#netaji,
+#patelji,
+#bapuji,
+#azadji,
+#raniji {
+  margin: 20px 50px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  max-height: 120vh;
 }
 
- .lins{
-    display: flex;             
-    gap: 40px;                  /* space between links */
-    justify-content: flex-end;  /* push to the right */
-    margin: 50px 80px;   
- }
+.lins {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  margin: 50px 80px;
+}
 
- .lins a {
-    display: inline-block;
+.lins a {
+  display: inline-block;
   padding: 15px 10px;
-  background: #ffe6d5;        
+  background: #ffe6d5;
   border-radius: 10px;
   color: purple;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
- }
+}
 
- .lins a:hover {
-    background: #f9c39e;
-    color: black;
-    transform: translateY(-3px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
+.lins a:hover {
+  background: #f9c39e;
+  color: black;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-  .heade {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 800;
-    background: #fff5ec;
-    color: #111;
-    padding: 20px 40px;
-    border-radius: 15px;
-    display: block;             /* take full width */
-    margin: 20px auto;          /* auto centers it */
-    max-width: 1000px;           /* optional: limit width */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    animation: fadeIn 1.2s ease-in-out;
-  }
-  
+.heade {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  background: #fff5ec;
+  color: #111;
+  padding: 20px 40px;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  animation: fadeIn 1.2s ease-in-out;
+}
 
 @keyframes fadeIn {
-    from {
+  from {
       opacity: 0;
       transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
 
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 .main-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
 }
 
-h1{
-    font-size: 50px;
-}
-p{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    word-spacing: 5px;
-    letter-spacing: 1px;
+h1 {
+  font-size: 50px;
 }
 
-.pic1 img{
-    border-radius: 15px;
-    height: 320px;
-    width: 270px;
-    transition: transform 0.4s ease;
+p {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  word-spacing: 5px;
+  letter-spacing: 1px;
 }
-.pic1 img:hover{
+
+.pic1 img {
+  border-radius: 15px;
+  height: 320px;
+  width: 270px;
+  transition: transform 0.4s ease;
+}
+
+.pic1 img:hover {
   transform: scale(1.1);
   transform-origin: zoom;
 }
-.gallery{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: 20px;
-}
-.gallery img{
-    width: 50vh;
-    height: 40vh;
+
+.gallery {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-.movie{
-    max-width: 50vh;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
-    height: 425px;
-    transition: all 0.3s ease;
+.gallery img {
+  width: 50vh;
+  height: 40vh;
+}
+
+.movie {
+  max-width: 50vh;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  height: 425px;
+  transition: all 0.3s ease;
 }
 
 .movie:hover {
@@ -137,7 +145,91 @@ p{
   box-shadow: 40px 40px 40px rgba(243, 90, 8, 0.558);
 }
 
-.movie p{
-    padding: auto;
-    margin: auto 10px;
+.movie p {
+  padding: auto;
+  margin: auto 10px;
+}
+
+
+/* --- 📱 STYLES FOR MOBILE SCREENS (Added Section) --- */
+/* This block applies styles only if the screen width is 768px or less */
+@media (max-width: 768px) {
+
+  body {
+      padding: 10px; /* Reduce overall page padding */
+      background-attachment: scroll; /* 'fixed' can be buggy on mobile */
+  }
+
+  #bhagat,
+  #netaji,
+  #patelji,
+  #bapuji,
+  #azadji,
+  #raniji {
+      margin: 15px 10px; /* Reduce side margins */
+      padding: 15px;
+      max-height: none; /* Allow sections to grow as needed */
+  }
+
+  .lins {
+      flex-wrap: wrap;       /* Allow links to wrap to the next line */
+      justify-content: center; /* Center the links */
+      gap: 10px;             /* Reduce the gap between links */
+      margin: 20px 0;        /* Remove side margins */
+  }
+  
+  .lins a {
+      padding: 10px 8px; /* Make links slightly smaller */
+      font-size: 14px;
+  }
+
+  .heade {
+      font-size: 1.6rem;   /* Reduce the main title's font size */
+      padding: 15px;
+  }
+
+  .main-content {
+      flex-direction: column; /* THIS IS KEY: Stack image and text vertically */
+      gap: 20px;
+      text-align: center;
+  }
+  
+  .pic1 img {
+      width: 100%;        /* Make image responsive */
+      max-width: 250px;   /* But don't let it get too big */
+      height: auto;       /* Maintain aspect ratio */
+  }
+
+  h1 {
+      font-size: 2rem; /* Reduce the name heading size */
+  }
+
+  p {
+      text-align: left; /* Align paragraphs to the left for readability */
+      justify-content: flex-start;
+      word-spacing: normal;
+      display: block; /* Change from flex to block */
+  }
+  
+  .gallery {
+      flex-direction: column; /* THIS IS KEY: Stack gallery items vertically */
+      align-items: center;    /* Center the items in the column */
+      gap: 30px;              /* Add space between stacked items */
+  }
+
+  .movie {
+      width: 90%;       /* Make movie cards take up most of the screen width */
+      max-width: 350px; /* But cap the width */
+      height: auto;     /* Let the content define the height */
+      max-height: none;
+  }
+  
+  .movie p {
+      padding: 15px; /* Add some padding to the text inside the card */
+  }
+
+  .gallery img {
+      width: 100%;      /* Make gallery images fill their container */
+      height: auto;     /* Maintain aspect ratio */
+  }
 }
